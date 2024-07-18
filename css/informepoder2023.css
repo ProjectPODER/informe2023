@@ -885,7 +885,7 @@ a {
   color: #fff;
   background-color: rgba(39, 60, 78, 0);
   padding: 5px 20px;
-  font-family: Opensans, sans-serif;
+  font-family: Opensans;
   font-size: 18px;
   font-weight: 400;
   line-height: 28px;
@@ -1787,7 +1787,7 @@ a {
 
 .budget {
   text-align: center;
-  font-family: Opensans, sans-serif;
+  font-family: Opensans;
   font-size: 20px;
   font-weight: 400;
 }
@@ -2001,7 +2001,7 @@ a {
   mix-blend-mode: normal;
   transform-origin: 50% 100%;
   transform-style: preserve-3d;
-  font-family: Opensans Regular, sans-serif;
+  font-family: Opensans Regular;
   font-size: 20px;
   line-height: 30px;
   transform: perspective(350px)rotateX(25deg);
@@ -2178,7 +2178,7 @@ a {
 
 .fs_numbercount-1_text {
   text-align: center;
-  font-family: Opensans, sans-serif;
+  font-family: Opensans;
   font-size: 14px;
   line-height: 24px;
 }
@@ -2429,7 +2429,7 @@ a {
 
 .card-3-box-para {
   text-align: center;
-  font-family: Opensans Regular, sans-serif;
+  font-family: Opensans Regular;
   font-size: 14px;
   font-weight: 300;
   line-height: 24px;
@@ -3231,7 +3231,7 @@ a {
 
 .grid-11 {
   grid-column-gap: 49px;
-  grid-row-gap: 30px;
+  grid-row-gap: 49px;
   grid-template-columns: 1fr 1fr 1fr;
   margin-top: 40px;
   margin-bottom: 40px;
@@ -3285,6 +3285,18 @@ a {
   grid-row-gap: 71px;
   grid-template-columns: 1fr 1fr 1fr;
   margin-top: 60px;
+}
+
+.icons-universo {
+  width: 150px;
+}
+
+.grid-15 {
+  grid-column-gap: 109px;
+  grid-template-rows: auto;
+  margin-top: 60px;
+  padding-left: 140px;
+  padding-right: 140px;
 }
 
 @media screen and (max-width: 991px) {
@@ -3723,6 +3735,12 @@ a {
     padding-left: 0;
     padding-right: 0;
   }
+
+  .grid-15 {
+    grid-column-gap: 20px;
+    padding-left: 0;
+    padding-right: 0;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -3764,6 +3782,10 @@ a {
   .navlink.home {
     width: 100%;
     display: inline-block;
+  }
+
+  .w100.text-center {
+    align-items: center;
   }
 
   .navmenu {
@@ -3972,6 +3994,14 @@ a {
   .columns-8 {
     flex-direction: column-reverse;
     display: flex;
+  }
+
+  .logo-informe {
+    width: 80px;
+  }
+
+  .menu-button {
+    margin-top: 0;
   }
 
   .flex-block {
@@ -4288,12 +4318,21 @@ a {
     grid-template-rows: auto auto auto;
     grid-template-columns: 1fr 1fr;
   }
+
+  .grid-15 {
+    grid-template-rows: auto auto;
+    grid-template-columns: 1fr;
+  }
 }
 
 @media screen and (max-width: 479px) {
   .heading.h2 {
     font-size: 26px;
     line-height: 38px;
+  }
+
+  .heading.h2.text-center.margin {
+    margin-top: 100px;
   }
 
   .heading.h2.white-text.b {
@@ -4350,6 +4389,10 @@ a {
   .body {
     font-size: 16px;
     line-height: 28px;
+  }
+
+  .w100.text-center {
+    align-items: center;
   }
 
   .section.taller.negative-mb {
@@ -4435,6 +4478,14 @@ a {
 
   .final.section {
     background-image: url('../images/portada_mensajeCode.png');
+  }
+
+  .logo-informe {
+    width: 70px;
+  }
+
+  .menu-button {
+    margin-top: 0;
   }
 
   .premios.section.negative-mb {
@@ -4525,6 +4576,14 @@ a {
     position: static;
   }
 
+  .planeta-covid {
+    margin-top: 100px;
+  }
+
+  .galaxias-conectadas {
+    margin-top: 60px;
+  }
+
   .brix---paragraph-default {
     font-size: 17px;
     line-height: 28px;
@@ -4569,6 +4628,10 @@ a {
     padding-right: 20px;
   }
 
+  .planeta-antivirales, .cohete-corazon {
+    margin-top: 100px;
+  }
+
   .star-decoration {
     top: 16%;
   }
@@ -4579,6 +4642,14 @@ a {
 
   .fs_numbercount-1_wrapper, .fs_numbercount-1_wrapper.navegando-juntes {
     grid-template-columns: 1fr;
+  }
+
+  .constelacion {
+    margin-top: 20px;
+  }
+
+  .planeta-decoracion {
+    margin-top: 100px;
   }
 
   .quote, .quote.mt-20.no-pd.fontsize {
@@ -4650,6 +4721,14 @@ a {
     padding-bottom: 64px;
   }
 
+  .puebla {
+    margin-top: 100px;
+  }
+
+  .box-gradient.margin {
+    margin-top: 60px;
+  }
+
   .grid-3.mt-20 {
     grid-template-rows: auto auto auto auto auto auto auto;
     grid-template-columns: 1fr 1fr 1fr;
@@ -4658,6 +4737,15 @@ a {
   .c-card-back, .c-card-front {
     width: 100%;
     max-width: 250px;
+  }
+
+  .text-block-4 {
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  .monta-as {
+    margin-top: 60px;
   }
 
   .grid-8 {
@@ -4942,11 +5030,6 @@ a {
   justify-self: stretch;
 }
 
-#w-node-c8724e42-e585-d7a4-0114-90eeef31b176-265038dd {
-  grid-template-rows: auto;
-  grid-template-columns: 1fr 1fr;
-}
-
 #w-node-_352a0253-fce6-9cdd-86e3-a7976109dba8-265038de {
   grid-template-rows: auto auto;
   grid-template-columns: 1fr;
@@ -5104,20 +5187,6 @@ a {
 
 
 @font-face {
-  font-family: 'Opensans';
-  src: url('../fonts/OpenSans-ExtraBold.ttf') format('truetype');
-  font-weight: 800;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: 'Opensans';
-  src: url('../fonts/OpenSans-ExtraBoldItalic.ttf') format('truetype');
-  font-weight: 800;
-  font-style: italic;
-  font-display: swap;
-}
-@font-face {
   font-family: 'Opensans Italic';
   src: url('../fonts/OpenSans-Italic.ttf') format('truetype');
   font-weight: 400;
@@ -5128,41 +5197,6 @@ a {
   font-family: 'Opensans Light';
   src: url('../fonts/OpenSans-Light.ttf') format('truetype');
   font-weight: 300;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: 'Opensans';
-  src: url('../fonts/OpenSans-LightItalic.ttf') format('truetype');
-  font-weight: 300;
-  font-style: italic;
-  font-display: swap;
-}
-@font-face {
-  font-family: 'Opensans Regular';
-  src: url('../fonts/OpenSans-Regular.ttf') format('truetype');
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: 'Opensans';
-  src: url('../fonts/OpenSans-Semibold.ttf') format('truetype');
-  font-weight: 600;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: 'Opensans';
-  src: url('../fonts/OpenSans-SemiboldItalic.ttf') format('truetype');
-  font-weight: 600;
-  font-style: italic;
-  font-display: swap;
-}
-@font-face {
-  font-family: 'Ompu';
-  src: url('../fonts/Ompu0.2-Bold.ttf') format('truetype');
-  font-weight: 700;
   font-style: normal;
   font-display: swap;
 }
